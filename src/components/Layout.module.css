@@ -1,0 +1,16 @@
+.scrollToTop{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.scrollToTop button {
+    background: none;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.toTop{
+    height: 50px;
+    width: 50px;
+}
