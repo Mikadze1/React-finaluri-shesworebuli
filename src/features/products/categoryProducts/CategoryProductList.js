@@ -24,7 +24,7 @@ export const CategoryProductList = () => {
         queryUrl: `?size=2&sort=${sort}&page=${page}`,
       })
     );
-  }, [sort, dispatch, page]);
+  }, [sort, dispatch, page, category]);
 
   return (
     <LoadingWrapper isLoading={loading}>
